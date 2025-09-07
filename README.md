@@ -3,6 +3,7 @@
 An advanced **FiveM ESX Elevator System** with full ingame management.  
 Create and manage elevators directly ingame – no config editing required.  
 
+
 ---
 
 ## ✨ Features
@@ -25,14 +26,16 @@ Create and manage elevators directly ingame – no config editing required.
 
 ---
 
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify.
+Please give credits if you use it in your own projects. 🙏
+
+---
+
 ## ⚙️ Configuration
 - Language + allowed admin groups can be set in **`config.lua`**:  
 ```lua
 Config.Locale = 'en' -- or 'de'
 Config.AdminGroups = { 'admin', 'superadmin' }
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use and modify.
-Please give credits if you use it in your own projects. 🙏
 
