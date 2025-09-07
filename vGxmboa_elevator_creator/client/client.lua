@@ -120,7 +120,7 @@ function OpenElevatorMenu(elevator)
     )
 end
 
-RegisterCommand("elevatoradmin", function()
+RegisterCommand("elevatorcreate", function()
     ESX.TriggerServerCallback('elevator:canUseAdmin', function(canUse)
         if canUse then
             OpenElevatorAdminMenu()
@@ -273,3 +273,4 @@ function OpenFloorEditor(elevator, index, floor)
         menu.close()
     end)
 end
+
